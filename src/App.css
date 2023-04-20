@@ -7,6 +7,12 @@ html {
   background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
+/* body {
+  margin: 0;
+  padding:0;
+  background:rgba(0, 255, 234, 0.5);
+} */
+
 .App {
   text-align: center;
   position: absolute;
@@ -20,12 +26,6 @@ html {
   height: 100vh;
   width: 100vw;
   background:rgba(186, 43, 43, 0.5);
-
-  /* background-image: url("/public/01-IMG.jpg");
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 img {
@@ -33,9 +33,3 @@ img {
   width: 100vw;
   object-fit: fill;
 }
-
-/* .Page2 {
-  height: 100vh;
-  width: 100vw;
-  background:rgba(44, 10, 10, 0.5);
-} */
