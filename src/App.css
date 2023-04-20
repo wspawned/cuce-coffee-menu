@@ -1,38 +1,41 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 .App {
   text-align: center;
+  position: absolute;
+  /* padding:0;
+  margin:0; */
+  top:0;
+  left:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Page {
+  height: 100vh;
+  width: 100vw;
+  background:rgba(186, 43, 43, 0.5);
+
+  /* background-image: url("/public/01-IMG.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  height: 100vh;
+  width: 100vw;
+  object-fit: fill;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .Page2 {
+  height: 100vh;
+  width: 100vw;
+  background:rgba(44, 10, 10, 0.5);
+} */

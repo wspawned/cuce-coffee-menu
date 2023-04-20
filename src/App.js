@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import MenuPage from './MenuPage';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MenuPage src="01-IMG.jpg" />
+      <MenuPage src="02-IMG.jpg" />
+      <MenuPage src="03-IMG.jpg" />
+      <MenuPage src="04-IMG.jpg" />
+      <MenuPage src="05-IMG.jpg" />
+
+      {/* <div className='Page' >
+        <img
+        src='01-IMG.jpg'
+        alt='page-1'
+        />
+        
+      </div> */}
+      {/* <div className='Page2' >
+        
+      </div> */}
     </div>
   );
 }
